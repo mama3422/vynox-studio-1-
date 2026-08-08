@@ -41,9 +41,9 @@ export default function About() {
           </div>
 
           <div className="relative mx-auto w-full max-w-md">
-            <div className="absolute -inset-8 -z-10 rounded-[2rem] bg-sky-500/10 blur-3xl" />
+            <div className="absolute -inset-8 -z-10 rounded-[2rem] bg-sky-500/10 blur-2xl sm:blur-3xl" />
             <div className="card-surface relative overflow-hidden p-8">
-              <div className="absolute -end-16 -top-16 h-48 w-48 rounded-full bg-sky-400/10 blur-2xl" />
+              <div className="absolute -end-16 -top-16 h-48 w-48 rounded-full bg-sky-400/10 blur-xl sm:blur-2xl" />
               <Image
                 src="/logo-mark.png"
                 alt="Vynox Studio"

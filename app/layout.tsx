@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: "Vynox Studio — Professional Digital Development Studio",
     description:
       "Vynox Studio is a digital development studio specializing in FiveM, Discord systems, custom software, and web development.",
-    images: ["/og-banner.png"],
+    images: ["/og-banner.jpg"],
     type: "website",
   },
   twitter: {
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title: "Vynox Studio",
     description:
       "Professional digital development studio — FiveM, Discord, and custom software.",
-    images: ["/og-banner.png"],
+    images: ["/og-banner.jpg"],
   },
 };
 

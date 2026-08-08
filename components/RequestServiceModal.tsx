@@ -48,7 +48,7 @@ export default function RequestServiceModal({
 
       {/* Modal card */}
       <div className="glass-strong relative w-full max-w-md overflow-hidden rounded-3xl p-8 shadow-glow-lg animate-[fade-up-in_0.35s_cubic-bezier(0.16,1,0.3,1)]">
-        <div className="pointer-events-none absolute -top-20 start-1/2 h-56 w-56 -translate-x-1/2 rounded-full bg-sky-400/20 blur-[90px]" />
+        <div className="pointer-events-none absolute -top-20 start-1/2 h-56 w-56 -translate-x-1/2 rounded-full bg-sky-400/20 blur-[50px] sm:blur-[90px]" />
 
         <button
           onClick={onClose}

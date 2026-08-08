@@ -14,7 +14,7 @@ export default function Contact() {
       <div className="pointer-events-none absolute inset-0 bg-grid-glow opacity-50" />
       <div className="container-px relative mx-auto max-w-4xl">
         <div className="card-surface relative overflow-hidden px-8 py-16 text-center sm:px-16">
-          <div className="absolute -top-24 start-1/2 h-64 w-64 -translate-x-1/2 rounded-full bg-sky-400/15 blur-[100px]" />
+          <div className="absolute -top-24 start-1/2 h-64 w-64 -translate-x-1/2 rounded-full bg-sky-400/15 blur-[60px] sm:blur-[100px]" />
 
           <span className="eyebrow relative mx-auto justify-center">
             <span className="h-1 w-6 rounded-full bg-sky-400" />

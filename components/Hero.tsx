@@ -18,8 +18,8 @@ export default function Hero() {
         <div className="absolute inset-0 bg-grid-glow" />
         <div className="absolute inset-0 bg-dot-grid opacity-[0.15]" />
         <ParticleNetwork />
-        <div className="absolute -top-40 start-1/2 h-[520px] w-[520px] -translate-x-1/2 rounded-full bg-sky-500/20 blur-[140px]" />
-        <div className="absolute bottom-0 end-0 h-72 w-72 rounded-full bg-sky-400/10 blur-[100px]" />
+        <div className="absolute -top-40 start-1/2 h-[520px] w-[520px] -translate-x-1/2 rounded-full bg-sky-500/20 blur-[70px] sm:blur-[140px]" />
+        <div className="absolute bottom-0 end-0 h-72 w-72 rounded-full bg-sky-400/10 blur-[60px] sm:blur-[100px]" />
         <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-navy-950 to-transparent" />
       </div>
 
