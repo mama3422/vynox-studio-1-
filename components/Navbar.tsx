@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { useLanguage } from "@/lib/language-context";
 
 const sectionIds = ["home", "about", "services", "why", "contact"] as const;
@@ -86,6 +87,12 @@ export default function Navbar() {
                 {item.label}
               </button>
             ))}
+            <Link
+              href="/partner"
+              className="rounded-full px-4 py-2 text-sm font-medium text-ink-300 transition-colors duration-200 hover:bg-white/5 hover:text-white"
+            >
+              {t.nav.partner}
+            </Link>
           </nav>
 
           <div className="flex items-center gap-2">
@@ -142,6 +149,13 @@ export default function Navbar() {
                 {item.label}
               </button>
             ))}
+            <Link
+              href="/partner"
+              onClick={() => setMenuOpen(false)}
+              className="rounded-xl px-4 py-3 text-start text-sm font-medium text-ink-100 transition-colors hover:bg-white/5 hover:text-white"
+            >
+              {t.nav.partner}
+            </Link>
             <button
               onClick={() => handleNavClick("contact")}
               className="mt-1 rounded-xl bg-sky-400 px-4 py-3 text-center text-sm font-semibold text-navy-950"

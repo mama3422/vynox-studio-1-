@@ -117,6 +117,61 @@ body {
     opacity: 0;
     animation: fade-up-in 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   }
+
+  /* ---- "وَهـج" partner theme ---- */
+
+  .partner-page {
+    background-color: #050505;
+    color: #ffffff;
+    font-family: var(--font-body-ar), sans-serif;
+  }
+
+  .ember-glass {
+    @apply border border-ember-400/10 bg-white/[0.03];
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+
+  .ember-glass-strong {
+    @apply border border-ember-400/15;
+    background-color: rgba(15, 15, 15, 0.78);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+
+  @media (min-width: 640px) {
+    .ember-glass {
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+    }
+
+    .ember-glass-strong {
+      backdrop-filter: blur(32px);
+      -webkit-backdrop-filter: blur(32px);
+    }
+  }
+
+  .ember-card {
+    @apply ember-glass rounded-2xl shadow-card transition-all duration-500;
+  }
+
+  .ember-btn-primary {
+    @apply relative inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 text-sm font-semibold text-coal-950 shadow-ember-glow transition-all duration-300 hover:shadow-ember-glow-lg active:scale-[0.98];
+    background-image: linear-gradient(135deg, #ffffff, #b0b0b0);
+  }
+
+  .ember-btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-ember-400/25 bg-white/[0.03] px-7 py-3.5 text-sm font-semibold text-white backdrop-blur-md transition-all duration-300 hover:border-ember-400/60 hover:bg-white/[0.06] active:scale-[0.98];
+  }
+
+  .ember-eyebrow {
+    @apply inline-flex items-center gap-2 text-sm font-medium tracking-wide text-ember-300;
+  }
+}
+
+.partner-page ::selection {
+  background-color: rgba(255, 255, 255, 0.22);
+  color: #ffffff;
 }
 
 @keyframes fade-up-in {

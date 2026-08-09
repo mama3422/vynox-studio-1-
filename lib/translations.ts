@@ -9,6 +9,7 @@ export interface Translations {
     why: string;
     contact: string;
     cta: string;
+    partner: string;
   };
   hero: {
     eyebrow: string;
@@ -85,6 +86,7 @@ export const translations: Record<Locale, Translations> = {
       why: "لماذا Vynox",
       contact: "تواصل معنا",
       cta: "ابدأ مشروعك",
+      partner: "الشريك الرسمي",
     },
     hero: {
       eyebrow: "استوديو تطوير رقمي",
@@ -200,6 +202,7 @@ export const translations: Record<Locale, Translations> = {
       why: "Why Vynox",
       contact: "Contact",
       cta: "Start a Project",
+      partner: "Official Partner",
     },
     hero: {
       eyebrow: "Digital Development Studio",
